@@ -1,0 +1,601 @@
+{
+ "today": "2026-11-11",
+ "backup": {
+  "app": "pesa",
+  "v": 1,
+  "data": {
+   "cur": "TSh",
+   "accounts": [
+    {
+     "id": "a1",
+     "name": "Cash",
+     "open": 150000,
+     "color": "#0e8f7a"
+    },
+    {
+     "id": "a2",
+     "name": "CRDB Bank",
+     "open": 2400000,
+     "color": "#3b6fc2"
+    },
+    {
+     "id": "a3",
+     "name": "M-Pesa",
+     "open": 85000.25,
+     "color": "#d63163"
+    },
+    {
+     "id": "a4",
+     "name": "NMB Bank",
+     "open": -1000,
+     "color": "#d9a21b"
+    }
+   ],
+   "tx": [
+    {
+     "id": "t1",
+     "type": "income",
+     "amt": 1850000,
+     "cat": "Salary",
+     "sub": "",
+     "date": "2026-10-30",
+     "acc": "a2",
+     "to": "",
+     "note": "Salary"
+    },
+    {
+     "id": "t2",
+     "type": "expense",
+     "amt": 45000.5,
+     "cat": "Food and drinks",
+     "sub": "Groceries",
+     "date": "2026-11-11",
+     "acc": "a1",
+     "to": "",
+     "note": "Shoprite"
+    },
+    {
+     "id": "t3",
+     "type": "expense",
+     "amt": 12000,
+     "cat": "Food and drinks",
+     "sub": "Cafe",
+     "date": "2026-11-11",
+     "acc": "a3",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t4",
+     "type": "expense",
+     "amt": 60000,
+     "cat": "Vehicle",
+     "sub": "Fuel",
+     "date": "2026-11-11",
+     "acc": "a1",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t5",
+     "type": "income",
+     "amt": 150000,
+     "cat": "Business",
+     "sub": "",
+     "date": "2026-11-10",
+     "acc": "a2",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t6",
+     "type": "expense",
+     "amt": 230000,
+     "cat": "Shopping",
+     "sub": "Clothes and shoes",
+     "date": "2026-11-10",
+     "acc": "a2",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t7",
+     "type": "expense",
+     "amt": 18000,
+     "cat": "Transport",
+     "sub": "",
+     "date": "2026-11-09",
+     "acc": "a3",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t8",
+     "type": "expense",
+     "amt": 95000,
+     "cat": "Bills",
+     "sub": "",
+     "date": "2026-11-08",
+     "acc": "a2",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t9",
+     "type": "expense",
+     "amt": 32000,
+     "cat": "Health",
+     "sub": "",
+     "date": "2026-11-07",
+     "acc": "a1",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t10",
+     "type": "expense",
+     "amt": 78000,
+     "cat": "Food and drinks",
+     "sub": "Restaurant",
+     "date": "2026-11-06",
+     "acc": "a2",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t11",
+     "type": "expense",
+     "amt": 400000,
+     "cat": "Rent",
+     "sub": "",
+     "date": "2026-11-03",
+     "acc": "a2",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t12",
+     "type": "expense",
+     "amt": 120000,
+     "cat": "Vehicle",
+     "sub": "Servicing",
+     "date": "2026-11-02",
+     "acc": "a1",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t13",
+     "type": "income",
+     "amt": 300000,
+     "cat": "Business",
+     "sub": "",
+     "date": "2026-11-01",
+     "acc": "a3",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t14",
+     "type": "expense",
+     "amt": 54000,
+     "cat": "Family",
+     "sub": "",
+     "date": "2026-10-31",
+     "acc": "a1",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t15",
+     "type": "expense",
+     "amt": 26000,
+     "cat": "Shopping",
+     "sub": "Gifts",
+     "date": "2026-10-28",
+     "acc": "a3",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t16",
+     "type": "expense",
+     "amt": 85000,
+     "cat": "Food and drinks",
+     "sub": "Groceries",
+     "date": "2026-10-26",
+     "acc": "a1",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t17",
+     "type": "income",
+     "amt": 1850000,
+     "cat": "Salary",
+     "sub": "",
+     "date": "2026-09-30",
+     "acc": "a2",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t18",
+     "type": "expense",
+     "amt": 9999,
+     "cat": "Other",
+     "sub": "",
+     "date": "2026-09-02",
+     "acc": "a4",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t19",
+     "type": "income",
+     "amt": 500000,
+     "cat": "Gift",
+     "sub": "",
+     "date": "2025-10-07",
+     "acc": "a2",
+     "to": "",
+     "note": ""
+    },
+    {
+     "id": "t20",
+     "type": "transfer",
+     "amt": 200000,
+     "cat": "Transfer",
+     "sub": "",
+     "date": "2026-11-09",
+     "acc": "a2",
+     "to": "a1",
+     "note": "ATM"
+    },
+    {
+     "id": "t21",
+     "type": "transfer",
+     "amt": 50000,
+     "cat": "Transfer",
+     "sub": "",
+     "date": "2026-10-12",
+     "acc": "a1",
+     "to": "a3",
+     "note": ""
+    }
+   ],
+   "budgets": {
+    "Food and drinks": 400000
+   },
+   "goals": [
+    {
+     "id": "g1",
+     "name": "Emergency fund",
+     "target": 5000000,
+     "saved": 1850000,
+     "date": "2027-02-28"
+    }
+   ],
+   "debts": [
+    {
+     "id": "d1",
+     "dir": "owed",
+     "who": "Joseph",
+     "amt": 500000,
+     "due": "2026-11-13",
+     "note": "Cement",
+     "done": false
+    }
+   ],
+   "plans": [
+    {
+     "id": "p1",
+     "name": "Rent",
+     "amt": 400000,
+     "acc": "a2",
+     "cat": "Rent",
+     "sub": "",
+     "date": "2026-11-14",
+     "freq": "monthly",
+     "every": 30,
+     "remind": 3,
+     "active": true
+    }
+   ],
+   "lists": [
+    {
+     "id": "l1",
+     "name": "Groceries",
+     "items": [
+      {
+       "id": "i1",
+       "name": "Rice",
+       "price": 18000,
+       "done": false
+      }
+     ]
+    }
+   ],
+   "filters": [],
+   "profile": {
+    "name": "Baraka",
+    "email": "b@x.com",
+    "phone": "",
+    "photo": ""
+   },
+   "futureField": {
+    "keep": [
+     "me",
+     1,
+     2
+    ]
+   },
+   "subs": {
+    "Food and drinks": [
+     "Bar",
+     "Cafe",
+     "Groceries",
+     "Restaurant"
+    ],
+    "Vehicle": [
+     "Fuel",
+     "Leasing",
+     "Parking",
+     "Rentals",
+     "Vehicle insurance",
+     "Vehicle maintenance",
+     "Servicing"
+    ],
+    "Shopping": [
+     "Clothes and shoes",
+     "Drug-store",
+     "Electronics and accessories",
+     "Gifts",
+     "Joy",
+     "Health and beauty",
+     "Home",
+     "Jewels",
+     "Kids",
+     "Stationery",
+     "Tools",
+     "Other"
+    ]
+   },
+   "notif": {},
+   "cats": {
+    "expense": [
+     {
+      "name": "Food and drinks",
+      "color": "#0e8f7a"
+     },
+     {
+      "name": "Vehicle",
+      "color": "#c23b4a"
+     },
+     {
+      "name": "Shopping",
+      "color": "#d9a21b"
+     },
+     {
+      "name": "Transport",
+      "color": "#3b6fc2"
+     },
+     {
+      "name": "Rent",
+      "color": "#8a5cc2"
+     },
+     {
+      "name": "Bills",
+      "color": "#e07b39"
+     },
+     {
+      "name": "Health",
+      "color": "#4a9a3b"
+     },
+     {
+      "name": "Business",
+      "color": "#c25c9a"
+     },
+     {
+      "name": "Family",
+      "color": "#6b7a74"
+     },
+     {
+      "name": "Other",
+      "color": "#2b8fb3"
+     }
+    ],
+    "income": [
+     {
+      "name": "Salary",
+      "color": "#8a5cc2"
+     },
+     {
+      "name": "Business",
+      "color": "#e07b39"
+     },
+     {
+      "name": "Gift",
+      "color": "#4a9a3b"
+     },
+     {
+      "name": "Other",
+      "color": "#c25c9a"
+     }
+    ]
+   },
+   "subsMig": 1
+  }
+ },
+ "expect": {
+  "bal": {
+   "a1": -96000.5,
+   "a2": 5747000,
+   "a3": 379000.25,
+   "a4": -10999
+  },
+  "total": 6019000.75,
+  "periods": [
+   {
+    "per": "day",
+    "off": 0,
+    "from": "2026-11-11",
+    "to": "2026-11-11",
+    "inc": 0,
+    "exs": 117000.5,
+    "net": -117000.5,
+    "n": 3
+   },
+   {
+    "per": "day",
+    "off": -1,
+    "from": "2026-11-10",
+    "to": "2026-11-10",
+    "inc": 150000,
+    "exs": 230000,
+    "net": -80000,
+    "n": 2
+   },
+   {
+    "per": "week",
+    "off": 0,
+    "from": "2026-11-09",
+    "to": "2026-11-15",
+    "inc": 150000,
+    "exs": 365000.5,
+    "net": -215000.5,
+    "n": 7
+   },
+   {
+    "per": "week",
+    "off": -1,
+    "from": "2026-11-02",
+    "to": "2026-11-08",
+    "inc": 0,
+    "exs": 725000,
+    "net": -725000,
+    "n": 5
+   },
+   {
+    "per": "month",
+    "off": 0,
+    "from": "2026-11-01",
+    "to": "2026-11-30",
+    "inc": 450000,
+    "exs": 1090000.5,
+    "net": -640000.5,
+    "n": 13
+   },
+   {
+    "per": "month",
+    "off": -1,
+    "from": "2026-10-01",
+    "to": "2026-10-31",
+    "inc": 1850000,
+    "exs": 165000,
+    "net": 1685000,
+    "n": 5
+   },
+   {
+    "per": "quarter",
+    "off": 0,
+    "from": "2026-10-01",
+    "to": "2026-12-31",
+    "inc": 2300000,
+    "exs": 1255000.5,
+    "net": 1044999.5,
+    "n": 18
+   },
+   {
+    "per": "quarter",
+    "off": -1,
+    "from": "2026-07-01",
+    "to": "2026-09-30",
+    "inc": 1850000,
+    "exs": 9999,
+    "net": 1840001,
+    "n": 2
+   },
+   {
+    "per": "year",
+    "off": 0,
+    "from": "2026-01-01",
+    "to": "2026-12-31",
+    "inc": 4150000,
+    "exs": 1264999.5,
+    "net": 2885000.5,
+    "n": 20
+   },
+   {
+    "per": "year",
+    "off": -1,
+    "from": "2025-01-01",
+    "to": "2025-12-31",
+    "inc": 500000,
+    "exs": 0,
+    "net": 500000,
+    "n": 1
+   },
+   {
+    "per": "all",
+    "off": 0,
+    "from": "2025-10-07",
+    "to": "2026-11-11",
+    "inc": 4650000,
+    "exs": 1264999.5,
+    "net": 3385000.5,
+    "n": 21
+   }
+  ],
+  "fmt": [
+   [
+    0,
+    "TSh 0"
+   ],
+   [
+    5000,
+    "TSh 5,000"
+   ],
+   [
+    -5000,
+    "−TSh 5,000"
+   ],
+   [
+    1234567.5,
+    "TSh 1,234,568"
+   ],
+   [
+    -1234567.5,
+    "−TSh 1,234,567"
+   ],
+   [
+    999.5,
+    "TSh 1,000"
+   ],
+   [
+    0.4,
+    "TSh 0"
+   ],
+   [
+    -0.4,
+    "TSh 0"
+   ],
+   [
+    -0.5,
+    "TSh 0"
+   ],
+   [
+    2.5,
+    "TSh 3"
+   ],
+   [
+    -2.5,
+    "−TSh 2"
+   ],
+   [
+    1000000000,
+    "TSh 1,000,000,000"
+   ]
+  ]
+ }
+}
